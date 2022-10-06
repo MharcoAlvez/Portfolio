@@ -223,7 +223,7 @@ opacity: 0;
     align-items: center;
     justify-content: center;
     background-color: black;
-    /* background-image: url('./img/Background.jpg');   */
+    background-image: url('img/livro.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -256,7 +256,7 @@ opacity: 0;
     width: 100px;
     border: 50%;
     display: block;
-    border: 1px solid blue;
+    border: 1px solid black;
     transition: 0.5s ease-in-out;
 }
 
@@ -271,7 +271,7 @@ opacity: 0;
 
 }
 
-.card-wrapper p {
+.card-wrapper h5 {
     font-size: 0;
     visibility: hidden;
     opacity: 0;
@@ -291,7 +291,7 @@ opacity: 0;
 }
 
 
-.card:hover > .card-wrapper p{
+.card:hover > .card-wrapper h5{
     opacity: 1;
     visibility: visible;
     font-size: 14px;
