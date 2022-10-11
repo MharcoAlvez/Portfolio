@@ -203,6 +203,13 @@ opacity: 0;
     margin: 3rem 0;
 }
 
+.project{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: #444;
+}
+
 .card-container {
     display: flex;
     justify-content: space-evenly;
